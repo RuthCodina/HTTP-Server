@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-mongoose.connect('mongodb://localhost/57bSongs',{
+mongoose.connect('mongodb://localhost/57blocks',{
     useNewUrlParser:true,
     useUnifiedTopology:true,
     useFindAndModify: true, 
