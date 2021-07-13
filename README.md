@@ -21,7 +21,7 @@ No API has been used, but you will be able to add data to the database, taking i
  - /auth/login
 
 ##To use this server is necessary to install MongoDb, mongo Compass, to see the DB and the depencies above mentioned.
-###1. Initialize in the mongo console with the compand "mongod". You could do this from the windows console. And identify the port where Mongo is receiving  info, To connect to Compass to view the data you have created. 
+###1. Initialize in the mongo console with the compand "mongod". You could do this from the windows console. And identify the port where Mongo is receiving  info, To connect to Compass to view the data you have created. Once opened the terminal, it's necessary to install all dependencies with 'npm install' command.
 ###2. There are three collections, Users, Songs and Roles. Roles will be created automatically once the DB is started, and each song will be added according to the information you enter in the '/user' endpoint.
 ###3. The private routes are in the endpoint '/user', and the public routes are in the endpoint '/songs'.
 ###4. When you login, a token will be generated, which will expire in 20 minutes. As long as it is enabled, you will be able to enter the protected routes allowed by your created user. Also you have the opporutnity to signup.
