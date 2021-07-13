@@ -36,5 +36,5 @@ No API has been used, but you will be able to add data to the database, taking i
 8. When you use signup, a token is generated, which you must copy to the other paths, using the header: 'access-token'. this way you can verify the paths that you can access with that user. but before testing this, you will need to create some songs in the path '/user'.
 <div>
 <img height="200" src="/src/Assets/post.png" />
-<img height="200" src="/src/Assets/post.png" />
+<img height="200" src="/src/Assets/get.png" />
 </div>
