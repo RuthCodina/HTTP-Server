@@ -28,7 +28,7 @@ No API has been used, but you will be able to add data to the database, taking i
 ###5. To indicate that you like a song you will have to go to the public endpoints '/songs/:id' and with a put request only add your name to the likes array(in JSON format). 
 
   <div>
-  <img height="200" src="./src/Assets/Screenhot_1.png" />
+  <img height="200" src="/src/Assets/Screenhot_1.png" />
   </div> 
 
 ###5 There are paths that you will not be able to enter, such as deleting a song, editing it, or seeing the list of movies that a certain user likes. in others it will only ask you to be logged in.
